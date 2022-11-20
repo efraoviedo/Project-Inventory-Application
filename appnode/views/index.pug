@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+  h1= title
+
+  p Welcome to my amazing Inventory Application, it is a sports shop.
+
+  p Here is a list of the categories. There are some some of them#{data.category_count}:
+
+  ul 
+    //- each category in data.list_categories
+      li
+        a(href=category.url) #{category.name}
+
+  p  Click here, To create a new category.: 
+  
+    a(href='/category/create') new category
+
+  p To create a new item, click here: 
+    a(href='/item/create') new item
