@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(243, 229, 212);
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #11dceb;
+  display: block;
+  padding-top: 20px;
+}
+
+a, div {
+  border: 1px solid #f3b0ac;
+  width: fit;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  background-color: aqua;
+  color: blue;
+  font-size: 60px;
+}
